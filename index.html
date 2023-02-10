@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Frequently Asked Questions</title>
+    <style>
+      .according {
+        width: 700px;
+        margin: 100px auto;
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      .item {
+        box-shadow: 0 0 32px black;
+        padding: 24px;
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        column-gap: 24px;
+      }
+      .number,
+      .text {
+        font-size: 24px;
+        font-weight: bold;
+        /* color: #087f5b; */
+        margin-top: -5px;
+      }
+      .number {
+        color: #adb5bd;
+      }
+
+      .icon {
+        width: 24px;
+        height: 24px;
+        stroke: #087f5b;
+      }
+      .hidden-box p {
+        line-height: 1.6;
+        margin-top: -10px;
+      }
+      .hidden-box {
+        grid-column: 2;
+        display: none;
+      }
+      .hidden-box ul {
+        color: #adb5bd;
+
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .open {
+        border-top: 8px solid green;
+      }
+      .opentext {
+        color: #087f5b;
+      }
+      .open .hidden-box {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <!---------------- 01---------------- -->
+
+    <div class="according">
+      <div class="item">
+        <p class="number">01</p>
+        <p class="text">Where are these chairs assembled?</p>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+          />
+        </svg>
+        <div class="hidden-box">
+          <p>
+            Lorem ipsum dolor sit amet cnsectetur adipiscing Lett definition, a
+            member of a people, the chief inhabitants of Latvia, living on or
+            near the eastern coast of the Baltic Sea; Latvian
+          </p>
+          <ul>
+            <li>First letter is Akshay Singh</li>
+            <li>Second letter is our school</li>
+            <li>Third letter is their work</li>
+            <li>forth letter is their proffection</li>
+          </ul>
+        </div>
+      </div>
+
+      <!------------------- 2---------- -->
+
+      <div class="item open">
+        <p class="number">02</p>
+        <p class="text opentext">How long do I have to return my chair?</p>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+          />
+        </svg>
+        <div class="hidden-box">
+          <p>
+            Lorem ipsum dolor sit amet cnsectetur adipiscing Lett definition, a
+            member of a people, the chief inhabitants of Latvia, living on or
+            near the eastern coast of the Baltic Sea; Latvian
+          </p>
+          <ul>
+            <li>First letter is Akshay Singh</li>
+            <li>Second letter is our school</li>
+            <li>Third letter is their work</li>
+            <li>forth letter is their proffection</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- --------------3-------- -->
+
+      <div class="item">
+        <p class="number">03</p>
+        <p class="text">Do you ship to countries outside the EU?</p>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+          />
+        </svg>
+        <div class="hidden-box">
+          <p>
+            Lorem ipsum dolor sit amet cnsectetur adipiscing Lett definition, a
+            member of a people, the chief inhabitants of Latvia, living on or
+            near the eastern coast of the Baltic Sea; Latvian
+          </p>
+          <ul>
+            <li>First letter is Akshay Singh</li>
+            <li>Second letter is our school</li>
+            <li>Third letter is their work</li>
+            <li>forth letter is their proffection</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
